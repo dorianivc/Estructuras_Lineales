@@ -19,10 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Cola.cpp" />
+    <ClCompile Include="Lista_Simple.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Nodo.cpp" />
     <ClCompile Include="Pila.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Cola.h" />
+    <ClInclude Include="Lista_Simple.h" />
+    <ClInclude Include="Nodo.h" />
     <ClInclude Include="Pila.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
