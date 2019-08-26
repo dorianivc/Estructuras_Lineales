@@ -1,8 +1,10 @@
+// Main.cpp
+// Autor: Dorian Vallecillo
+// Descripción: Aquí se encuentra una prueba de insercion, extraccion  
+// y destruccion de datos con las diferentes estructuras de datos
+//
 #include <iostream>
-#include "Pila.h"
-#include "Cola.h"
-#include "Lista_Simple.h"
-#include "Doubly_Linked_List.h"
+#include "Estructuras_Lineales.h"
 using namespace std;
 
 int main() {
@@ -10,10 +12,6 @@ int main() {
 	Cola<string>* cola = new Cola<string>();
 	Lista_Simple<string>* lista = new Lista_Simple<string>();
 	Doubly_Linked_List<string>* listaDole = new Doubly_Linked_List<string>();
-	string* num = new string(2,'+');
-	prueba->push(num);
-	cola->queue(num);
-	listaDole->addFront(num);
 	for (int i = 0; i < 50; i++) {
 		int valor = i + 3;
 		string* var = new string(valor, '*');

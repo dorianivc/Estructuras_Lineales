@@ -1,3 +1,7 @@
+// Main.cpp
+// Autor: Dorian Vallecillo
+// Descripción: Estructura Lineal Dimanica Doble Enlazada
+//
 #ifndef DOUBLY_LINKED_LIST
 #define DOUBLY_LINKED_LIST
 #include "Nodo.h"

@@ -1,9 +1,12 @@
+// Main.cpp
+// Autor: Dorian Vallecillo
+// Descripción: Estructura Last-In/First-Out ---> Stack
+//
 #ifndef PILA_H
 #define PILA_H
 #include <iostream>
 #include "Nodo.h"
 using namespace std;
-int const TamanoMax = 50;
 template<class T>
 class Pila
 {

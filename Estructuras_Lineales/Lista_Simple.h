@@ -1,3 +1,7 @@
+// Main.cpp
+// Autor: Dorian Vallecillo
+// Descripción: Estructura Lineal Dinamica Lista
+//
 #ifndef LISTA_SIMPLE
 #define LISTA_SIMPLE
 #include "Nodo.h"

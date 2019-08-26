@@ -1,3 +1,7 @@
+// Main.cpp
+// Autor: Dorian Vallecillo
+// Descripción: Estructura First-In/First-Out ---> Cola/Fila
+//
 #ifndef COLA_H
 #define COLA_H
 #include "Nodo.h"
