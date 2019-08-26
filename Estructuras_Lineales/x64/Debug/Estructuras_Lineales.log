@@ -1,14 +1,2 @@
-﻿  Cola.cpp
-  main.cpp
-C:\Users\Monica\Documents\Dorian\2do Semestre 2019\Estructuras de Datos\Tarea 4\Estructuras_Lineales\Estructuras_Lineales\Nodo.h(22,17): error C2995:  'Nodo<T>::Nodo(T *,Nodo<T> *)': ya se ha definido la plantilla de función
-C:\Users\Monica\Documents\Dorian\2do Semestre 2019\Estructuras de Datos\Tarea 4\Estructuras_Lineales\Estructuras_Lineales\Nodo.h(11): message :  vea la declaración de 'Nodo<T>::Nodo'
-C:\Users\Monica\Documents\Dorian\2do Semestre 2019\Estructuras de Datos\Tarea 4\Estructuras_Lineales\Estructuras_Lineales\Nodo.h(29,20): error C2995:  'T *Nodo<T>::getDato(void)': ya se ha definido la plantilla de función
-C:\Users\Monica\Documents\Dorian\2do Semestre 2019\Estructuras de Datos\Tarea 4\Estructuras_Lineales\Estructuras_Lineales\Nodo.h(12): message :  vea la declaración de 'Nodo<T>::getDato'
-C:\Users\Monica\Documents\Dorian\2do Semestre 2019\Estructuras de Datos\Tarea 4\Estructuras_Lineales\Estructuras_Lineales\Nodo.h(35,26): error C2995:  'Nodo<T> *Nodo<T>::getSiguiente(void)': ya se ha definido la plantilla de función
-C:\Users\Monica\Documents\Dorian\2do Semestre 2019\Estructuras de Datos\Tarea 4\Estructuras_Lineales\Estructuras_Lineales\Nodo.h(13): message :  vea la declaración de 'Nodo<T>::getSiguiente'
-C:\Users\Monica\Documents\Dorian\2do Semestre 2019\Estructuras de Datos\Tarea 4\Estructuras_Lineales\Estructuras_Lineales\Nodo.h(41,22): error C2995:  'void Nodo<T>::setDato(T *)': ya se ha definido la plantilla de función
-C:\Users\Monica\Documents\Dorian\2do Semestre 2019\Estructuras de Datos\Tarea 4\Estructuras_Lineales\Estructuras_Lineales\Nodo.h(14): message :  vea la declaración de 'Nodo<T>::setDato'
-C:\Users\Monica\Documents\Dorian\2do Semestre 2019\Estructuras de Datos\Tarea 4\Estructuras_Lineales\Estructuras_Lineales\Nodo.h(47,22): error C2995:  'void Nodo<T>::setSiguiente(Nodo<T> *)': ya se ha definido la plantilla de función
-  Nodo.cpp
-  Generando código...
-C:\Users\Monica\Documents\Dorian\2do Semestre 2019\Estructuras de Datos\Tarea 4\Estructuras_Lineales\Estructuras_Lineales\Nodo.h(15): message :  vea la declaración de 'Nodo<T>::setSiguiente'
+﻿  main.cpp
+  Estructuras_Lineales.vcxproj -> C:\Users\Monica\Documents\Dorian\2do Semestre 2019\Estructuras de Datos\Tarea 4\Estructuras_Lineales\x64\Debug\Estructuras_Lineales.exe

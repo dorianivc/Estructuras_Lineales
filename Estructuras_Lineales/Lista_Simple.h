@@ -107,6 +107,11 @@ inline void Lista_Simple<T>::insertarFinal(T* dat)
 		aux->siguiente = nullptr;
 		actual->siguiente = aux;
 	}
+	else {
+		head = new Nodo<T>();
+		head->Dato = dat;
+		head->siguiente = nullptr;
+	}
 }
 
 template<class T>
