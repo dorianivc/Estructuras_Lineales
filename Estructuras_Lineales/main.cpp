@@ -1,4 +1,4 @@
-// Main.cpp
+// main.cpp
 // Autor: Dorian Vallecillo
 // Descripción: Aquí se encuentra una prueba de insercion, extraccion  
 // y destruccion de datos con las diferentes estructuras de datos
