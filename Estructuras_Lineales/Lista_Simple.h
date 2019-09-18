@@ -11,6 +11,7 @@ class Lista_Simple
 {private:
 	Nodo<T>* head;
 	Nodo<T>* actual;
+	Nodo<T>* invertirListaRecurivo(Nodo<T>*);
 public:
 	Nodo<T>* getHead();
 	Nodo<T>* getActual();
@@ -24,6 +25,8 @@ public:
 	void insertarAdelante(T*);
 	void insertarFinal(T*);
 	void eliminarFinal();
+	void invertirLista();
+	void invertirListaRecursive();
 	~Lista_Simple();
 };
 
@@ -130,6 +133,46 @@ inline void Lista_Simple<T>::eliminarFinal()
 		delete actual->siguiente;
 
 	}
+}
+
+template<class T>
+inline void Lista_Simple<T>::invertirLista()
+{
+	Nodo<T> * temp=nullptr;
+	Nodo<T>* siguiente = nullptr;
+
+	while (head->siguiente) {
+		siguiente = head->siguiente;
+		head->siguiente = temp;
+		temp = head;
+		head = siguiente;
+
+	}
+	head->siguiente = temp;
+}
+
+template<class T>
+inline void Lista_Simple<T>::invertirListaRecursive()
+{
+	head=invertirListaRecurivo(head);
+}
+
+template<class T>
+inline Nodo<T>* Lista_Simple<T>::invertirListaRecurivo(Nodo<T>* entrada)
+{
+	if (entrada == nullptr) {
+		return nullptr;
+	}
+	if (entrada->siguiente == nullptr) {
+		return entrada;
+
+	}
+
+	Nodo<T>* temp = entrada->siguiente;
+	entrada->siguiente = nullptr;
+	Nodo<T>* resto = invertirListaRecurivo(temp);
+	temp->siguiente = entrada;
+	return resto;
 }
 
 template<class T>

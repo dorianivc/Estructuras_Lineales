@@ -34,6 +34,7 @@ public:
 	T* getDato(int);
 	T* getDatoReverse(int);
 	~Doubly_Linked_List();
+	int tamano();
 
 
 };
@@ -184,4 +185,17 @@ inline Doubly_Linked_List<T>::~Doubly_Linked_List()
 	}
 	delete head;
 	delete actual;
+}
+
+template<class T>
+inline int Doubly_Linked_List<T>::tamano()
+{
+	DoublyNodo<T>* aux = head->siguiente;
+	int i = 0;
+	while (aux != actual) {
+		i++;
+		aux = aux->siguiente;
+	}
+	return i;
+
 }

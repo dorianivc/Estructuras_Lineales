@@ -20,35 +20,23 @@ int main() {
 		lista->insertarAdelante(var);
 		listaDole->addBack(var);
 	}
-	
-	int i = 0;
-	while (!prueba->empty()) {
-		cout << "Imprimiendo datos Pila" << endl;
-		cout << "Dato #: " << i + 1 << "   " << *prueba->pop() << endl;
-		i++;
-	}
-	i = 0;
-	while (!cola->empty()) {
-		cout << "Imprimiendo datos Cola" << endl;
-		cout << "Dato #: " << i + 1 << "   " << *cola->dequeue() << endl;
-		i++;
-	}
-	
+
+
 	for (int i = 0; i < 90; i++) {
 		if (lista->getDato(i) != nullptr) {
 			cout << "Imprimiendo datos Lista" << endl;
 			cout << "Dato #: " << i + 1 << "   " << *lista->getDato(i) << endl;
 		}
 	}
-	
-	for (int i = 1; i < 90; i++) {
-		bool prueba = false;
-		if (listaDole->getDato(i) != nullptr) {
-			prueba = true;
-			cout << "Imprimiendo datos Lista Doble" << endl;
-			cout << "Dato #: " << i  << "   " << *listaDole->getDato(i) << endl;
+	lista->invertirListaRecursive();
+	for (int i = 0; i < 90; i++) {
+		if (lista->getDato(i) != nullptr) {
+			cout << "Imprimiendo datos Lista(invertido)" << endl;
+			cout << "Dato #: " << i + 1 << "   " << *lista->getDato(i) << endl;
 		}
 	}
+	
+	
 	delete prueba;
 	delete cola;
 	delete lista;
